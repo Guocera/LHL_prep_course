@@ -1,0 +1,134 @@
+html {
+	background-color: rgba(255, 191, 0, 0.82);
+}
+
+img {
+	border-radius: 31px;
+	width: 32%;
+	height: 450px;
+}
+
+img:hover{
+	transform: scale(1.2,1.2) ;
+	transition-duration: 0.5s;
+	transition-timing-function: cubic-bezier;
+}
+
+a {
+	text-decoration: none;
+}
+
+.restaurant{
+	background-color: #FFD27C;
+	box-shadow: 20px 20px 10px #A28037;
+	margin-right:  40px;
+}
+
+.name {
+	font-size: 1.5em;
+	font-family: gills sans-serif;
+	font-style: italic;
+	color: #CA000E;
+}
+
+#header {
+	position: relative;
+	background-color: rgba(255, 167, 0, 0.93);
+	color: rgb(0, 0, 0);
+	font-size: 100px;
+	font-family: didot,sans-serif;
+	text-align: center;
+	margin-top: -17px;
+	border-radius: 34px;
+	margin-left: 32px;
+	margin-right: 32px;
+	padding-top: 150px;
+}
+
+.recipe-title {
+	font-size: 4em;
+	margin-left: -0.5em;
+	margin-top: -1em;
+	width: 65%;
+	background-color: rgba(255, 255, 255, 0.45);
+	text-align: left;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #A28037;
+}
+
+.recipe {
+	background-color: #FFAC11;
+	padding-left: 2em;
+	padding-top:  2em;
+	padding-bottom: 2em;
+	border-radius: 34px;
+	margin-right: 32px;
+	margin-left:  32px;
+	margin-top: 32px;
+	}
+
+.completed{
+	text-align: center;
+	margin-top: -64px;
+	background-color: #FFA803;
+	padding: 50px;
+	border-radius: 34px;
+	margin-left: 32px;
+	margin-right:  32px;
+}
+
+.highlight{
+	color: #fff;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+	font: 20px 'ChunkFiveRegular';
+}
+
+.ingredients{
+	margin-left: 50px;
+	border-radius: 10px;
+	padding-left: 60px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	background-color: rgb(255, 210, 124);
+	box-shadow: 10px 10px 10px #A28036;
+}
+
+.ingredients-list{
+	font-size: 2em;
+}
+
+.ingredients-title{
+	font-size: 3em;
+	font-style: italic;
+}
+
+.instructions{
+	margin-left: 50px;
+	border-radius: 10px;
+	background-color: #FFD27C;
+	padding-left: 60px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-right: 10px;
+	box-shadow: 10px 10px 10px #A28035;
+}
+
+.instructions-list{
+	font-size: 2em;
+}
+
+.instructions-title{
+	font-size: 3em;
+	font-style: italic;
+}
+
+.picture{
+	clip: rect(0px,60,200px,0px);
+}
+
+
+.name:hover{
+	color: #0049D8;
+}
